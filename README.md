@@ -50,7 +50,7 @@ sudo python setup.py build
 sudo python setup.py install
 ```
 
-## Step 5
+## Step 4
 
 ```
 sudo mv maxcoin.py /usr/lib/python2.7/dist-packages/
