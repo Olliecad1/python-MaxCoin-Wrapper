@@ -72,3 +72,5 @@ def GetBlock():
 
     j1  = json.loads(new)
 
+    print j1 
+   
