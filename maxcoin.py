@@ -21,8 +21,6 @@ def GetBlockCount():
 
     print 'Block Count: ' + new
 
-    return GetBlockCount()
-
 def GetBlockHash():
     query = urllib2.urlopen('http://api.maxcoinhub.io/Blockchain/GetBlockCount')
 
@@ -45,8 +43,6 @@ def GetBlockHash():
     code = str(results)
 
     print 'Block Hash ' + code
-
-    return GetBlockHash()
 
 
 def GetBlock():
@@ -75,7 +71,4 @@ def GetBlock():
     new = new.read()
 
     j1  = json.loads(new)
-
-    return GetBlock()
-
 
